@@ -1,6 +1,6 @@
 ## Compositional-Attention
 ___
-This repository contains the official implementation for the paper Compositional Attention: Disentangling Search and Retrieval.
+This repository contains the official implementation for the paper **[Compositional Attention: Disentangling Search and Retrieval](https://arxiv.org/abs/2110.09419)**.
 
 Our code is built on top of open-sourced implementations of multiple different tasks. We thank and reference these helpful implementations below.
 
@@ -17,5 +17,12 @@ Our code is built on top of open-sourced implementations of multiple different t
 We refer the readers to the respective sub-directories for details regarding each of the experiments. Do cite our work if you build up on it or find it useful.
 
 ```
-BIBTEX
+@misc{mittal2021compositional,
+      title={Compositional Attention: Disentangling Search and Retrieval}, 
+      author={Sarthak Mittal and Sharath Chandra Raparthy and Irina Rish and Yoshua Bengio and Guillaume Lajoie},
+      year={2021},
+      eprint={2110.09419},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
