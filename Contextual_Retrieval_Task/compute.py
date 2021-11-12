@@ -17,9 +17,9 @@ df = pd.DataFrame(columns=["Sequence Length", "MLP Type", "Type", "Number of Par
                            "Dimension", "Search Dimension", "Value Dimension", "Concat", "Gumbel", "Separate", "Seed", "Loss"])
 
 if args.no_coeff:
-    folders = ["No_Coeff_Trained_Models_Linear"]
+    folders = ["No_Coeff_Trained_Models"]
 else:
-    folders = ["Trained_Models_Nonlinear"]
+    folders = ["Trained_Models"]
 
 for folder in folders:
     tasks = os.listdir(folder)

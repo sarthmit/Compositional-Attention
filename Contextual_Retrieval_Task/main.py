@@ -57,10 +57,10 @@ else:
 
 if args.ood:
     data = dataset_ood
-    name = f'{name}Trained_Models/{args.seq_len}_{args.v_s}_{args.v_p}/{args.seed}'
+    name = f'{name}Trained_Models_ood/{args.seq_len}_{args.v_s}_{args.v_p}/{args.seed}'
 else:
     data = dataset
-    name = f'{name}Trained_Models_ood/{args.seq_len}_{args.v_s}_{args.v_p}/{args.seed}'
+    name = f'{name}Trained_Models/{args.seq_len}_{args.v_s}_{args.v_p}/{args.seed}'
 
 name = f'{name}/{args.model}_{args.dim}_{args.search_dim}_{args.value_dim}_{args.search}_{args.retrieve}'
 if args.gumbel:
